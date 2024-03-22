@@ -1,4 +1,4 @@
-# assessment-js
+# Coderbyte Task Challange
 
 To install dependencies:
 
