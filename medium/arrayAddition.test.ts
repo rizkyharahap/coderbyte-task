@@ -14,7 +14,7 @@
 import { expect, test } from "bun:test";
 
 const tests: [number[], boolean][] = [
-  //   [[5, 7, 16, 1, 2], false],
+  [[5, 7, 16, 1, 2], false],
   [[3, 5, -1, 8, 12], true],
 ];
 
