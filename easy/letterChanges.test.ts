@@ -12,7 +12,7 @@ const tests: [string, string][] = [
   ["hello*3", "Ifmmp*3"],
   ["fun times!", "gvO Ujnft!"],
 ];
-test.each(tests)("First Factorial", (input, output) => {
+test.each(tests)("Letter Changes", (input, output) => {
   function letterChanges(str: string): string {
     let result = [];
     let vowel = new Set(["a", "i", "u", "e", "o"]);

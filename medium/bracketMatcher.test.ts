@@ -17,7 +17,7 @@ const tests: [string, number][] = [
   ["(c(oder)) b(yte)", 1],
 ];
 
-test.each(tests)("Distinct List", (input, output) => {
+test.each(tests)("Bracket Matcher", (input, output) => {
   function bracketMatcher(str: string): number {
     let opened = 0;
 

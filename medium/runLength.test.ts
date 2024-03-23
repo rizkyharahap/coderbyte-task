@@ -18,7 +18,7 @@ const tests: [string, string][] = [
   ["wwwbbbw", "3w3b1w"],
 ];
 
-test.each(tests)("Distinct List", (input, output) => {
+test.each(tests)("Run Length", (input, output) => {
   function runLength(str: string): string {
     // set count with 1, to automatically collect first character count
     let count = 1;
